@@ -1,0 +1,15 @@
+<!-- cw-circular-wheel-container -->
+<div class="circular-wheel-container">
+  <div class="wheel-container">
+    <div class="wheel" [style.transform]="getRotatedStyle()">
+      <div class="slotContainer">
+        <!-- slot loop start -->
+        <div class="slot" *ngFor="let slot of data">
+          <cw-circular-wheel-slot [data]="slot"></cw-circular-wheel-slot>
+        </div>
+        <!-- slot loop end -->
+      </div>
+    </div>
+  </div>
+  <div class="indicator"></div>
+</div>

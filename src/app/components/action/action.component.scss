@@ -1,0 +1,61 @@
+:host {
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  div {
+    display: inline-block;
+    vertical-align: middle;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    // form {
+    //   flex-direction: row;
+    //   box-sizing: border-box;
+    //   display: flex;
+    //   place-content: center flex-start;
+    //   align-items: center;
+
+    //   width: inherit;
+    //   min-width: inherit;
+    //   max-width: inherit;
+      div {
+        flex-flow: row wrap;
+        box-sizing: border-box;
+        display: flex;
+        place-content: center flex-start;
+        align-items: center;
+        button {
+          box-sizing: border-box;
+          position: relative;
+          -webkit-user-select: none;
+          user-select: none;
+          cursor: pointer;
+          outline: none;
+          border: none;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+          display: inline-block;
+          white-space: nowrap;
+          text-decoration: none;
+          vertical-align: baseline;
+          text-align: center;
+          margin: 0;
+          min-width: 64px;
+          line-height: 36px;
+          padding: 0 16px;
+          border-radius: 4px;
+          overflow: visible;
+          span {
+            display: flex;
+            padding: 0.5rem 0;
+            align-items: center;
+            svg {
+              padding: 0.25rem;
+            }
+          }
+        }
+        kbd {
+          margin-left: 0.5rem;
+        }
+      }
+    // }
+  }
+}

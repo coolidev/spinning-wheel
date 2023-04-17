@@ -1,0 +1,3 @@
+<app-header></app-header>
+<cw-circular-wheel [spinning]="spinning" [data]="getSpinData()" (selectedAngle)="showSelectedIndex($event)"></cw-circular-wheel>
+<app-action (newItemEvent)="spinWheel($event)" [selectedIndex]="selectedIndex"></app-action>
