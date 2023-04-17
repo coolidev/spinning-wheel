@@ -1,0 +1,80 @@
+:host {
+  /* Responsive Styles */
+  @media screen and (max-width: 991.98px) {
+    .wheel {
+      width: 825px;
+      height: 825px;
+    }
+    .wheel-container {
+      height: 250px;
+      padding-top: 3.5rem;
+    }
+    .slot {
+      width: 165px;
+      height: 165px;
+      &.slot:nth-of-type(0) {
+        transform: rotate(-72deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(1) {
+        transform: rotate(-90deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(2) {
+        transform: rotate(-108deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(3) {
+        transform: rotate(-126deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(4) {
+        transform: rotate(-144deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(5) {
+        transform: rotate(-162deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(6) {
+        transform: rotate(-180deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(7) {
+        transform: rotate(-198deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(8) {
+        transform: rotate(-216deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(9) {
+        transform: rotate(-234deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(10) {
+        transform: rotate(-252deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(11) {
+        transform: rotate(-270deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(12) {
+        transform: rotate(-288deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(13) {
+        transform: rotate(-306deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(14) {
+        transform: rotate(-324deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(15) {
+        transform: rotate(-342deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(16) {
+        transform: rotate(-360deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(17) {
+        transform: rotate(-378deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(18) {
+        transform: rotate(-396deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(19) {
+        transform: rotate(-414deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+      &.slot:nth-of-type(20) {
+        transform: rotate(-432deg) translate3d(330px, 0, 0) rotate(90deg)
+      }
+    }
+  }
+}

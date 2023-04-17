@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from
 @Component({
   selector: 'cw-circular-wheel',
   templateUrl: './wheel.component.html',
-  styleUrls: ['./wheel.component.scss'],
+  styleUrls: ['./wheel.component.scss', './wheel.component.desktop.scss', './wheel.component.mobile.scss'],
 })
 export class WheelComponent implements OnChanges {
   private angle: number = 0;

@@ -9,12 +9,10 @@
     background-image: url("https\:\/\/www\.wsav\.com\/wp-content\/uploads\/sites\/75\/2022\/04\/GettyImages-1363555411\.jpg\?w\=2560\&h\=1440\&crop\=1");
     background-size: cover;
     background-position: center;
-  
     .wheel-container {
       position: relative;
       overflow: hidden;
     }
-    
     .indicator {
       pointer-events: none;
       position: absolute;
@@ -22,7 +20,8 @@
       width: 2px;
       height: 100%;
       background: #000;
-      &::before, &::after {
+      &::before,
+      &::after {
         content: "";
         position: absolute;
         left: -2px;
@@ -35,15 +34,12 @@
       }
     }
   }
-
   .wheel {
     position: relative;
     border-radius: 50%;
     overflow: hidden;
-
     transition: transform 5s ease-in-out;
   }
-
   .slotContainer {
     position: relative;
     width: 100%;
@@ -54,207 +50,6 @@
       margin: auto;
       color: white;
       text-align: center;
-    }
-  }
-
-  /* Responsive Styles */
-  @media screen and (max-width: 991.98px) {
-    .wheel {
-      width: 825px;
-      height: 825px;
-    }
-    .wheel-container {
-      height: 250px;
-      padding-top: 3.5rem;
-    }
-
-    .slot {
-      width: 165px;
-      height: 165px;
-      
-      &.slot:nth-of-type(0) {
-        transform: rotate(-72deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(1) {
-        transform: rotate(-90deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(2) {
-        transform: rotate(-108deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(3) {
-        transform: rotate(-126deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(4) {
-        transform: rotate(-144deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(5) {
-        transform: rotate(-162deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(6) {
-        transform: rotate(-180deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(7) {
-        transform: rotate(-198deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(8) {
-        transform: rotate(-216deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(9) {
-        transform: rotate(-234deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(10) {
-        transform: rotate(-252deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(11) {
-        transform: rotate(-270deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(12) {
-        transform: rotate(-288deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(13) {
-        transform: rotate(-306deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(14) {
-        transform: rotate(-324deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(15) {
-        transform: rotate(-342deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(16) {
-        transform: rotate(-360deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(17) {
-        transform: rotate(-378deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(18) {
-        transform: rotate(-396deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(19) {
-        transform: rotate(-414deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(20) {
-        transform: rotate(-432deg) translate3d(330px, 0, 0) rotate(90deg)
-      }
-    }
-  }
-  
-  @media screen and (min-width: 768px) {
-    .wheel {
-      width: 1100px;
-      height: 1100px;
-    }
-    .wheel-container {
-      height: 310px;
-      padding-top: 2.25rem;
-    }
-
-    .slot {
-      width: 220px;
-      height: 220px;
-
-      &.slot:nth-of-type(0) {
-        transform: rotate(-72deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(1) {
-        transform: rotate(-90deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(2) {
-        transform: rotate(-108deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(3) {
-        transform: rotate(-126deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(4) {
-        transform: rotate(-144deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(5) {
-        transform: rotate(-162deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(6) {
-        transform: rotate(-180deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(7) {
-        transform: rotate(-198deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(8) {
-        transform: rotate(-216deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(9) {
-        transform: rotate(-234deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(10) {
-        transform: rotate(-252deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(11) {
-        transform: rotate(-270deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(12) {
-        transform: rotate(-288deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(13) {
-        transform: rotate(-306deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(14) {
-        transform: rotate(-324deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(15) {
-        transform: rotate(-342deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(16) {
-        transform: rotate(-360deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(17) {
-        transform: rotate(-378deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(18) {
-        transform: rotate(-396deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(19) {
-        transform: rotate(-414deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
-
-      &.slot:nth-of-type(20) {
-        transform: rotate(-432deg) translate3d(440px, 0, 0) rotate(90deg)
-      }
     }
   }
 }
