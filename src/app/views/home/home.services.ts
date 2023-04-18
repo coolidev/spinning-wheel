@@ -19,8 +19,9 @@ export class HomeService {
   setSpinData() {
     const types = 'users'
     this.http.get(this.baseUrl + types, { params: { size: 20, response_type: 'json' } }).subscribe((data) => {
-      this.spinData = Object.values(data).map((value) => {
+      this.spinData = Object.values(data).map((value, idx) => {
         return {
+          id: idx + 1,
           image: value.avatar,
           name: value.username
         }
